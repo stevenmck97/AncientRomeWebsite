@@ -1,0 +1,110 @@
+<!--Anyone's game-->
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/css.css" rel="stylesheet">
+    
+<style>  
+    
+img.wrap {
+    float: top;
+    margin-top: 20px;
+    margin-left: 20px;
+}   
+    
+ body{
+    background-image: url(images/homeback4.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    }
+
+    p{
+        color: white
+    }
+</style> 
+<title>
+        Educational Website about Ancient Rome
+    </title>
+</head>
+<body>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Back To Top</button>
+
+        <div class="container-fluid">
+        <div class="row">     
+        <div id="backr">
+        <div class="col-sm-12">
+        <div class="navbar">
+        <a class="active" href="home.html">Home</a>
+        <a href="theRise.html">The Rise</a>
+        <a href="theFall.html">The Fall</a>
+        <a href="war.html">War</a>
+        <a href="architecture.html">Architecture</a>          
+        <div class="dropdown">
+        <button class="dropbtn" onclick="myFunction()">Civilization
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content" id="myDropdown">
+        <a href="society.html">Society</a>
+        <a href="importantfigs.html">Important Figures</a> 
+        <a href="philosophers.html">Philosophers</a>
+        <a href="religion.html">Religion</a>
+    </div>
+  </div> 
+   <div class="topnav-right">
+        <a href="index.html">Disclaimer</a>
+        <a href="references.html">References</a>
+        </div>
+    </div>
+</div>
+  </div>        
+
+        
+    <header>  
+       Educational Website about Ancient Rome
+    </header>
+
+            
+</div>
+
+    <div class="row">
+<div class="col-sm-12">    
+<p>
+    The aim of the website is to provide reliable and easily accessible information about Ancient Rome. It is specifically targeted at college students who need further information for exams or assignments. 
+    <br>
+    <br>
+    
+    With input from our users, we have created what we believe to be a user friendly, informative website.
+    <br>
+    <br> 
+    
+    If you have any queries, feel free to E-mail us at <a href="mailto:ancientromewebs@gmail.comSubject=Hello%20again" target="_top">ancientromewebs@gmail.com</a>
+</p>
+    </div>
+    </div>
+    </div>
+    
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+</body>  
+</html>
+

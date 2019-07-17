@@ -1,0 +1,215 @@
+/*Anyone's game*/
+
+nav ul { 
+    list-style: none;
+    background-color: #1652ad;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    border-right: 1px solid #bfc4cc;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #02398c;
+}
+
+nav li:last-child {
+    border-right: none;
+}
+
+.active {
+    background-color: red;
+}
+
+.dropdownActive {
+    background-color: dimgray;
+}
+
+header {
+    text-align: center;
+    background-color: #1652ad;
+    color: white;
+    border-top: solid white 1px;
+    padding: 2px;
+    font-size: 48px;
+}
+
+body {
+/*    background-image: url(../images/colosseum.jpg);*/
+    background-size: cover;
+    background-color: lightgray;
+    font-family: "Arial Nova";
+}
+
+p  {
+    color: black;
+    text-align: center;
+    padding: 2px;
+    float: left;
+    background-color: white;
+    width: 70%;
+    font-size: 22px;
+    border-style: ridge;
+    border-color: dimgray;
+}
+
+.rightPGraph  {
+    color: black;
+    text-align: center;
+    padding: 2px;
+    float: right;
+    background-color: white;
+    width: 70%;
+    font-size: 22px;
+    border-style: ridge;
+    border-color: dimgray;
+}
+
+.imgRight {
+    float: right
+    width: 30%;
+}
+
+/*steven's css*/
+ 
+/*
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-style: ridge;
+    border-color: dimgray;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;    
+    border: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: red;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content {
+    display: block;
+    position: absolute;
+    background-color: #1652ad;
+    color: white;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: lightgray;
+}
+*/
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
